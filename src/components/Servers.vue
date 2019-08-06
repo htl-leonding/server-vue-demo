@@ -11,8 +11,19 @@
 </template>
 
 <script>
+  export default {
+    data: function () {
+      return {
+        servers: [
+          {id: 1, status: 'Normal'},
+          {id: 2, status: 'Critical'},
+          {id: 3, status: 'Normal'},
+          {id: 4, status: 'Normal'}
+        ]
+      }
+    }
+  }
 </script>
 
 <style>
-
 </style>
